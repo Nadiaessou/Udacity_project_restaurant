@@ -1,14 +1,29 @@
 
-/************************ For mobile ************************/
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 800px) {
+.inside #map-container {
+    height: 100vh;
+    position: inherit;
+    width: 100%;
+}
+
+.inside{
+    width: 100%;
+}
+
+#breadcrumb {
+    width: 100%;
+}
+
+#restaurant-container, #reviews-container{
+    padding: 30px 40px 80px;
+    width: 100%;
+}
+
+.inside #footer {
+    width: 100%;
+}
 }
 
 
-/************************ For tablet ************************/
-@media screen and (min-width: 611px) and (max-width: 849px) {
-}
-
-
-/************************ For desktop ************************/
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 80px) {
 }
