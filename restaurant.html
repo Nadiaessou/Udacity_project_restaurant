@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Normalize.css for better cross-browser consistency -->
@@ -19,11 +20,11 @@
   <header>
     <!-- Beginning nav -->
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1><a href="/" tabindex="-1">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
-      <li><a href="/">Home</a></li>
+    <ul id="breadcrumb" aria-label="Breadcrumb" >
+      <li><a href="/" aria-label="Home">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
     <!-- End nav -->
@@ -33,8 +34,8 @@
   <!-- Beginning main -->
   <main id="maincontent">
     <!-- Beginning map -->
-    <section id="map-container">
-      <div id="map"></div>
+    <section id="map-container" aria-label="Map Area" aria-hidden= "true" tabindex="-1">
+      <div id="map" role="application" aria-hidden="true" role="application" tabindex="-1"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
@@ -48,7 +49,7 @@
     <!-- end restaurant -->
     <!-- Beginning reviews -->
     <section id="reviews-container">
-      <ul id="reviews-list"></ul>
+      <ul id="reviews-list" aria-label="Reeviews list"></ul>
     </section>
     <!-- End reviews -->
   </main>
