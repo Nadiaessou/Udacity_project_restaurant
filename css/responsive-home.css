@@ -1,37 +1,29 @@
-@media screen and (max-width: 530px)  {
-nav h1 a {
-    font-size: 10pt;
+@media screen and (max-width: 530px) {
+    nav h1 a {
+        font-size: 10pt;
+    }
+    .filter-options h2 {
+        float: none;
+    }
+    .filter-options {
+        width: 100%;
+        height: 105px;
+    }
+    .filter-options select {
+        width: 150px;
+    }
+    #restaurants-list li {
+        margin: 15px 10px 15px 10px;
+        width: 80%;
+    }
 }
-
-.filter-options h2 {
-float: none;
-}
-
-.filter-options {
-    width: 100%;
-    height: 105px;
-}
-
-.filter-options select {
-    width: 150px;
-}
-
-#restaurants-list li{
-    margin: 15px 10px 15px 10px;
-    width: 80%;
-}
-
-}
-
 
 @media screen and (min-width: 531px) and (max-width: 721px) {
-.filter-options select {
-    width: 170px;
-}
-
-#restaurants-list li{
-    margin: 15px 10px 15px 10px;
-    width: 80%;
-}
-
+    .filter-options select {
+        width: 170px;
+    }
+    #restaurants-list li {
+        margin: 15px 10px 15px 10px;
+        width: 80%;
+    }
 }
